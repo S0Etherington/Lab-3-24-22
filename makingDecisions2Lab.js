@@ -87,7 +87,7 @@ if(score >= 90){
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
-var myFavoriteNumbers = [4,8,12,16,20,24];
+var myFavoriteNumbers = [4,8,12,16,20,24,58,4,6];
 // Do not edit the code above.
 
 /*
@@ -105,7 +105,7 @@ console.log(someNum)
 
 //Code Here
 if(myFavoriteNumbers.length >= 7){
-  someNum = myFavoriteNumbers[7]
+  someNum = myFavoriteNumbers[6]
   console.log(someNum)
 // }else if(myFavoriteNumbers.length === 7){
 //   someNum = myFavoriteNumbers[7]
@@ -143,8 +143,9 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
-for(let i = letters.length; i < letters.length; i--)
+for(let i = letters.length-1; i >= 0; i--){
 console.log(letters[i])
+}
 ////////// Advanced Problems //////////
 
 ////////// PROBLEM 10 //////////
